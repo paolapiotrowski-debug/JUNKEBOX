@@ -1,20 +1,22 @@
 body {
-    color: white;
-    background: white;
+    color: black; /* Texto principal do corpo preto */
+    background: white; /* Fundo do corpo branco (mantive para contraste) */
     margin: 0px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
 }
 
 header {
-    border-bottom: solid 2px rgb(42, 122, 228);
+    /* Linha divisória e cor do texto do cabeçalho em Azul Marinho */
+    border-bottom: solid 2px #001f3f; 
     padding: 20px;
     font-size: 32px;
-    color: rgb(42, 122, 228);
+    color: #001f3f; 
 }
 
 .chamada {
-    background: rgb(184, 156, 213);
+    /* Fundo da seção de destaque em um tom de Azul Marinho mais claro/suave */
+    background: #4682B4; 
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
@@ -45,6 +47,8 @@ p {
     margin-top: 50px;
 }
 
+/* Nota: Mantive a transparência e o hover, mas o HTML original usa iframes agora, 
+   então essa regra só teria efeito se você voltasse a usar <a> e <img>. */
 .categoria-videos img {
     opacity: 0.5;
     height: 200px;
@@ -52,9 +56,10 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid #001f3f; /* Borda de hover trocada para Azul Marinho */
 }
 
 .categoria h2 {
-    color: #FF0000; /* Trocado para vermelho puro */
+    /* Título de categoria em Azul Marinho (era vermelho) */
+    color: #001f3f; 
 }
